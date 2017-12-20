@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Flag
 
 # Create your views here.
 def flag_list(request):
